@@ -102,7 +102,7 @@ public class CollectController {
         if (res){
             jsonObject.put("code", 1);
             jsonObject.put("msg", "修改成功");
-            return jsonObject;22
+            return jsonObject;
         }else {
             jsonObject.put("code", 0);
             jsonObject.put("msg", "修改失败");
