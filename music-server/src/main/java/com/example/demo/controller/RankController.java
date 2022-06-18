@@ -52,10 +52,4 @@ public class RankController {
         return rankService.rankOfSongListId(Long.parseLong(songListId));
     }
 
-    //    获取指定歌单的评分
-    @RequestMapping(value = "/rank1", method = RequestMethod.GET)
-    public Object rankOfSongListIdd(HttpServletRequest req){
-        String songListId = req.getParameter("songListId");
-        return rankService.rankOfSongListId(Long.parseLong(songListId));
-    }
 }
